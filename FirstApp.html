@@ -1,0 +1,27 @@
+<html>
+<head>
+
+<style>
+    #app {
+        text-align:center;
+        font-size: 28px;
+        border: 5px dashed green;
+    } 
+ </style>
+
+</head>
+<body>
+ <div id="app">
+  <p>Hello My Name is:
+  <div id="fname"></div>
+  </p>
+</div>  
+
+<script language="javascript">
+    var fname = prompt("Your First Name?","");
+    var app = document.getElementById('fname');
+    app.innerHTML = fname;
+</script> 
+
+</body>
+</html>
